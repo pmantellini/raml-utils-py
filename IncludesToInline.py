@@ -28,7 +28,7 @@ def execute():
 # Entry point
 
 if len(sys.argv) != 3:
-    sys.exit('Usage: python includesToInline.py raml_input raml_inline_output')
+    sys.exit('Usage: python IncludesToInline.py raml_input raml_inline_output')
 
 raml_input = sys.argv[1]
 raml_inline_output = sys.argv[2]
